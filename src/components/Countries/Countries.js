@@ -4,7 +4,7 @@ import Country from '../Country/Country';
 import './Countries.css';
 
 const Countries = () => {
-    const [countries, setCountries] = useState([]);
+    const [countries, setCountries] = useState([]); 
 
     useEffect(()=>{
         fetch('https://restcountries.eu/rest/v2/all')
